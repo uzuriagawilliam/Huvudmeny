@@ -151,7 +151,7 @@ namespace Huvudmeny
             string ageStr = Console.ReadLine();
             int age = ValidateImput(ageStr);  //Kollar att inmatning är korrekt
 
-            if ((age <= 5) && (age != 0))
+            if ((age <= 5) && (age != 0))   //Extra uppgift
             {
                 Console.WriteLine("Barn under fem år går in gratis");
                 Console.ReadLine();
@@ -167,7 +167,7 @@ namespace Huvudmeny
                 Console.WriteLine("Pensionärspris: 90kr");
                 Console.ReadLine();
             }
-            if (age >= 100)
+            if (age >= 100)     //Extra uppgift
             {
                 Console.WriteLine("pensionärer över 100 går in gratis");
                 Console.ReadLine();                
